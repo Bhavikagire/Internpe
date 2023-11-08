@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(224, 231, 242);
+    /* background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBwgHBwgHBwcHBw0HBwcHBw8ICQcNFREWFhURHx8YHSggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRk3KystLSsrKysrLSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAgAG/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQACBgX/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A6hmZ6bmmZmSZmKTMWRZjjYEDhxsRDKxsSSysbEk4FY2JJY4xCWLJJYhJmZkGZmSZmZJmZkmZiixYpMxIIwlsRGHDhwJONisbEk42KxsSTgxeDEkhYwpIUEEhQIAISZmZBmZkmZiixYpMWhBY4cKIw4TgIw4cbERjKxsCS2KxsSTgxWNhSMGLwYggLwIIoWmkJCqCEsQkzMyBMBiJMaGAtFQRURaGNFQESKxpDgLY2HDiIxsVjYEnGxWNiSMbFYMKTgVgqCAuxNITU1dTUEhVFISDQQGLJEwGJGKghgaMVBFQEwxoYC0VI0MBbDhOIjGw4cRTjYrBiScGLwIIsFiqKkiiqopZRRVVNITU1dTSE0KqamQxYpoqCGAmKgioCYqCGJpUMEVATFQRUBaHGhgLNhKKcZQxJIUEk1NXU0hNTVUUsoqauppCKKqpqZTRVVJAZmQMVExURMVExUBVFRMVA0qKiYqAqhgiomjDBFQFixBAUEkiqopCKKqpqCamqqaWU1NVU0hNTVUUspqaqppDMzINFRMVETFRMVAVRUTFQNKiomKgKoqJhiaVFRMMBUUkEhmSFFKaQKmqqagmpqqmlmpqaqppCaKamlkVNVU0gEFJoYmKiSoqIioCuGJiomlRUTDAVxURFQFUKYQ0o6nTqRYaNSKawSappqaQKKamlkVNNTUBU1VTSymimikBmZBoYCUpURFQNKioiKgK4YmGArhiYZQVynUadRXranW0FWtqdbUjo0aNKNTWoqDVNailkUVqKQKmmikCppCZZgxTEFJUMTDAVRURFQFUVKiFFcOplOgq06nW1FetqdbQla2p1tROto0aQdTW0WoNaK1TSGorUVAUVqKQAQQzBkmIZJRSUlRSDAVwxCgVadTraivTqNOoq1tTraErW1OtqStGjRpR0a2jUGDaEGqSkhqGBDBmSZgyBZmSYgokpKSikgq06g6irTqdbQla2p06krRo0akrRo1tSI0aCjobQgwYEMzBJmZkGZmSZmZJmZkmIZFTBklFLBKYMirWSySm1LJK0aGSOgMgzBimDMkzMyDMzJMwZIxmZJmZkmZmSYsyLFmSZmYJizJMCyIZmQYMxTBmSZmZBmZkmZmSDMyT/9k="); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw_FvREAn-9nbxoNIStBlGXRrQy-pXbrnSvA&usqp=CAU"); */
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpru-RDy7QLViDTMPtLLwCZOgtcgmSKUSAmQ&usqp=CAU");
+     border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 2px 2px 5px #888888;
+    padding: 35px;
+    padding-left: 40px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#display {
+   border-radius: 5px;
+    /* width: 230px; */
+    width: 76%;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 24px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 5PX;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: transparent;
+}
+button:hover{
+    background-color: rgb(90, 116, 158);
+}
+.clear {
+    background-color: #ff3333;
+    color: white;
+}
+
+.double-width {
+    width: 116px;
+}
+
+button.clear:hover {
+    background-color: #ff6666;
+}
