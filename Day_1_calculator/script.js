@@ -1,3 +1,4 @@
+
 let currentInput = "";
 
 function appendToDisplay(value) {
@@ -10,6 +11,7 @@ function clearDisplay() {
     updateDisplay();
 }
 
+// display update
 function calculate() {
     try {
         currentInput = eval(currentInput);
